@@ -1,0 +1,221 @@
+[
+  {
+    "chunk_ids": [
+      "v01_c000",
+      "v01_c001",
+      "v01_c002",
+      "v02_c000",
+      "v02_c001",
+      "v02_c002"
+    ],
+    "summary": "Introductory lecture of a series titled \u201cBuild a Large Language Model from Scratch.\u201d The speaker is Dr. Raj Dander, who completed a B.Tech in Mechanical Engineering from IIT Madras (2017) and a PhD from MIT."
+  },
+  {
+    "chunk_ids": [
+      "v04_c004",
+      "v04_c005",
+      "v04_c006",
+      "v05_c000",
+      "v05_c001",
+      "v05_c002"
+    ],
+    "summary": "Self-attention enables models to remember and use information from earlier parts of a sequence, similar to how humans recall previous context while reading. It helps capture long-range dependencies, improving the model\u2019s ability to predict the next output."
+  },
+  {
+    "chunk_ids": [
+      "v07_c003",
+      "v07_c004",
+      "v07_c005",
+      "v07_c006",
+      "v07_c007",
+      "v07_c008"
+    ],
+    "summary": "When tokenized, text is broken into tokens like \u201chello , world . this , is a test .\u201d without including whitespace. The role and handling of whitespace is an important consideration in tokenization decisions."
+  },
+  {
+    "chunk_ids": [
+      "v08_c008",
+      "v08_c009",
+      "v09_c000",
+      "v09_c001",
+      "v09_c002",
+      "v09_c003"
+    ],
+    "summary": "Subword tokenization breaks unfamiliar phrases like \u201csome unknown place\u201d into smaller subword units, allowing models to process out-of-vocabulary words. GPT-2 uses this approach to effectively tokenize and handle unseen text."
+  },
+  {
+    "chunk_ids": [
+      "v10_c006",
+      "v10_c007",
+      "v10_c008",
+      "v10_c009",
+      "v10_c010",
+      "v11_c000"
+    ],
+    "summary": ""
+  },
+  {
+    "chunk_ids": [
+      "v12_c004",
+      "v12_c005",
+      "v12_c006",
+      "v12_c007",
+      "v12_c008",
+      "v12_c009"
+    ],
+    "summary": "Tokens are converted into numerical input IDs (e.g., 2, 3, 5, 1) and represented as tensors (e.g., torch.tensor([2,3,5,1])). Using tensors enables efficient computation and supports backpropagation for optimizing embedding layer weights."
+  },
+  {
+    "chunk_ids": [
+      "v13_c005",
+      "v13_c006",
+      "v13_c007",
+      "v13_c008",
+      "v14_c000",
+      "v14_c001"
+    ],
+    "summary": "The first formulation of the attention mechanism was proposed by researchers credited here, known as the Bahdanau attention mechanism, named after the author. This mechanism introduced the key idea of focusing on relevant parts of the input while processing sequences."
+  },
+  {
+    "chunk_ids": [
+      "v15_c000",
+      "v15_c001",
+      "v15_c002",
+      "v15_c003",
+      "v15_c004",
+      "v15_c005"
+    ],
+    "summary": "Introduction to a lecture in the \u201cBuild Large Language Models from Scratch\u201d series, focusing on implementing a self-attention mechanism with trainable weights. It covers key components such as queries, keys, and values."
+  },
+  {
+    "chunk_ids": [
+      "v16_c004",
+      "v16_c005",
+      "v16_c006",
+      "v16_c007",
+      "v16_c008",
+      "v16_c009"
+    ],
+    "summary": "Applying a mask to the attention weight matrix ensures that elements above the diagonal are set to zero. This enforces constraints such as preventing the model from attending to future tokens."
+  },
+  {
+    "chunk_ids": [
+      "v18_c005",
+      "v18_c006",
+      "v18_c007",
+      "v18_c008",
+      "v18_c009",
+      "v18_c010"
+    ],
+    "summary": "Each attention head produces its own attention score matrix, and these outputs are later concatenated together. Grouping by heads and using operations like key transposition helps compute attention efficiently across multiple heads."
+  },
+  {
+    "chunk_ids": [
+      "v20_c003",
+      "v20_c004",
+      "v20_c005",
+      "v20_c006",
+      "v21_c000",
+      "v21_c001"
+    ],
+    "summary": "The input data is organized into batches, with each batch containing a sequence of elements (e.g., five inputs per batch). This structure allows parallel processing of multiple sequences during model training."
+  },
+  {
+    "chunk_ids": [
+      "v23_c002",
+      "v23_c003",
+      "v23_c004",
+      "v23_c005",
+      "v23_c006",
+      "v23_c007"
+    ],
+    "summary": "Maintaining consistent input and output dimensions improves scalability and allows stacking multiple layers in LLMs. This also helps the model learn better parameter relationships while enabling deeper architectures."
+  },
+  {
+    "chunk_ids": [
+      "v25_c001",
+      "v25_c002",
+      "v25_c003",
+      "v25_c004",
+      "v25_c005",
+      "v25_c006"
+    ],
+    "summary": "For a context size of four, each token has a positional embedding (e.g., 768 dimensions) added to its token embedding. This combination forms the final input embedding, incorporating both content and position information."
+  },
+  {
+    "chunk_ids": [
+      "v27_c001",
+      "v27_c002",
+      "v27_c003",
+      "v27_c004",
+      "v27_c005",
+      "v27_c006"
+    ],
+    "summary": "Training loss alone is not sufficient; the key measure is performance on unseen data. To evaluate this, the dataset is split into training and testing sets, typically using a 90\u201310 ratio."
+  },
+  {
+    "chunk_ids": [
+      "v28_c008",
+      "v29_c000",
+      "v29_c001",
+      "v29_c002",
+      "v29_c003",
+      "v29_c004"
+    ],
+    "summary": "Conclusion of the lecture, emphasizing its importance as it involved training a large language model and minimizing its loss. The session sets up further topics to be covered in the next lecture."
+  },
+  {
+    "chunk_ids": [
+      "v32_c004",
+      "v32_c005",
+      "v32_c006",
+      "v32_c007",
+      "v32_c008",
+      "v32_c009"
+    ],
+    "summary": "The explanation describes how to access weights and biases of different layers in the model using specific keys. For example, one key corresponds to the fully connected layer, while another (e.g., projection layer) allows access to its weights and biases."
+  },
+  {
+    "chunk_ids": [
+      "v35_c001",
+      "v35_c002",
+      "v35_c003",
+      "v35_c004",
+      "v35_c005",
+      "v35_c006"
+    ],
+    "summary": "Introduction to the GPT architecture within the lecture series, highlighting the constructed LLM architecture. The focus is on understanding the core (gray-colored) architecture built so far."
+  },
+  {
+    "chunk_ids": [
+      "v37_c002",
+      "v37_c003",
+      "v37_c004",
+      "v38_c000",
+      "v38_c001",
+      "v38_c002"
+    ],
+    "summary": "In this setup, only an instruction and its corresponding output are used, without needing a separate input field. The dataset is loaded in the first step using a download function."
+  },
+  {
+    "chunk_ids": [
+      "v40_c000",
+      "v40_c001",
+      "v40_c002",
+      "v40_c003",
+      "v41_c000",
+      "v41_c001"
+    ],
+    "summary": "Introduction to a lecture in the \u201cBuild Large Language Models from Scratch\u201d series, focusing on step four of an instruction fine-tuning project. This step involves loading a pre-trained large language model."
+  },
+  {
+    "chunk_ids": [
+      "v42_c009",
+      "v43_c000",
+      "v43_c001",
+      "v43_c002",
+      "v43_c003"
+    ],
+    "summary": "The lecture concludes by suggesting exploration of parameter-efficient fine-tuning, which can improve computational efficiency and sometimes accuracy. It marks the end of the session and wraps up the key concepts covered."
+  }
+]
