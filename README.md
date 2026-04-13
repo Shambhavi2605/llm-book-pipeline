@@ -21,7 +21,7 @@ This project was built to:
 
 ## Problem Statement
 
-Given a long YouTube playlist (~40+ lectures):
+Given a long YouTube playlist (43 lectures):
 
 - How can we convert it into a structured book?
 - How do we handle:
