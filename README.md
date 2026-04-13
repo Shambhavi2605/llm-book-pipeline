@@ -45,28 +45,28 @@ LLM (generation) + deterministic logic (correction)
 
 ---
 
-1. Data Collection
+1. Data Collection  
    Extract transcripts from YouTube videos
 
-2. Cleaning & Preprocessing
+2. Cleaning & Preprocessing  
    Remove noise and normalize text
 
-3. Chunking
+3. Chunking  
    Split transcripts into manageable segments
 
-4. Outline Generation
+4. Outline Generation  
    Deterministically map video lectures to chapters based on actual lecture titles
 
-5. Chapter Generation
+5. Chapter Generation  
    Generate detailed chapter content from source chunks using local Ollama LLM
 
-6. Faithfulness Verification
+6. Faithfulness Verification  
    Verify generated content against source transcripts using LLM-based scoring
 
-7. Manuscript Compilation
+7. Manuscript Compilation  
    Combine all chapters into a single markdown document
 
-8. PDF Rendering
+8. PDF Rendering  
    Convert manuscript to professional PDF using Pandoc
 
 ---
