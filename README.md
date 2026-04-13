@@ -23,13 +23,13 @@ This project was built to:
 
 Given a long YouTube playlist (43 lectures):
 
-- How can we convert it into a structured book?
-- How do we handle:
+- Convert it into a structured book
+- Handle:
   - Large input sizes (token limits)
   - Noisy transcripts
   - Logical content structuring
   - Hallucination in LLM outputs
-- How do we ensure reproducibility?
+- Ensure reproducibility?
 
 ---
 
