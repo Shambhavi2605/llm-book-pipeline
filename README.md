@@ -202,7 +202,6 @@ The final book pdf is `book.pdf`.
 
 ## Future Improvements
 
-- Add a verification layer to detect hallucinations
 - Build a retrieval-based query system (RAG)
 - Improve semantic chunking using embeddings
 - Add a lightweight interface for interaction
