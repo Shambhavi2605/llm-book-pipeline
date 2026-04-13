@@ -44,6 +44,8 @@ def compile_manuscript():
     manuscript.append("")
     manuscript.append("---")
     manuscript.append("")
+    manuscript.append("\\newpage")
+    manuscript.append("")
 
     # ── Chapters ───────────────────────────────────────────────
     for i, filename in enumerate(chapter_files):

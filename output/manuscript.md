@@ -18,6 +18,8 @@ The pipeline used to generate this book:
 
 ---
 
+\newpage
+
 # Chapter 1: Introduction to LLMs
 
 **Learning Objective:** By the end of this chapter, readers will understand what LLMs are and the difference between pretraining and finetuning.
