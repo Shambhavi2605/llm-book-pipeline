@@ -142,7 +142,7 @@ llm-book-pipeline/
 ├── output/  
 │ ├── batch_topics.json  
 │ ├── book.pdf  
-│ ├── final_outline.json 
+│ ├── final_outline.json   
 │ ├── manuscript.md  
 │ ├── merged_summaries.json    
 │ ├── outline.json  
