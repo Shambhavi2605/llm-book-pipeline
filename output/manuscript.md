@@ -57,7 +57,8 @@ Our goal is to equip you with the knowledge and skills necessary to build large 
 
 In the next chapter, we'll dive deeper into the basics of large language models, exploring their architecture, training methods, and applications. Stay tuned!
 
----
+
+\newpage
 
 # Chapter 2: Transformers and GPT Foundations
 
@@ -102,7 +103,8 @@ The decoder's primary task is to generate the translated text based on the input
 
 In the next chapter, we will explore the GPT-3 architecture in more detail, including its connection to the Transformer architecture and how it has been used for various applications.
 
----
+
+\newpage
 
 # Chapter 3: Tokenization
 
@@ -163,7 +165,8 @@ In this example, we split the text into individual tokens using the `re.split()`
 
 By the end of this chapter, you should have a good understanding of how to tokenize text using Python. In the next chapter, we will explore the second step of tokenization: converting tokens into token IDs.
 
----
+
+\newpage
 
 # Chapter 4: Data Preparation and Input Pipeline
 
@@ -228,7 +231,8 @@ In this code, we load the encoded text and define the context size. We then crea
 
 In this chapter, we learned how to create input-target pairs using auto-regressive modeling. We implemented a data loader that fetches these pairs using a sliding window approach and used the bite pair encoding tokenizer to encode our text. By creating these input-target pairs, we are preparing our data for training large language models. In the next chapter, we will explore how to create vector embeddings from our input-target pairs.
 
----
+
+\newpage
 
 # Chapter 5: Embeddings
 
@@ -273,7 +277,8 @@ In the next part of this lecture, we will explore how to train a neural network 
 
 In the next chapter, we will explore how to train a neural network to create vector embeddings for large language models like GPT.
 
----
+
+\newpage
 
 # Chapter 6: Attention Mechanism
 
@@ -317,7 +322,8 @@ There are four types of attention mechanisms:
 
 In the next chapters, we will dive deeper into each type of attention mechanism, exploring their implementation and applications.
 
----
+
+\newpage
 
 # Chapter 7: Multi-Head Attention and Mathematics
 
@@ -354,7 +360,8 @@ The outputs from each head are then concatenated together to produce the final o
 
 By understanding the mathematics behind multi-head attention, you will be able to implement this powerful technique in your own language modeling projects.
 
----
+
+\newpage
 
 # Chapter 8: Transformer Architecture
 
@@ -400,7 +407,8 @@ In this chapter, we will be using the GPT-2 architecture as our reference model.
 
 In the next chapter, we will dive deeper into each component of the Transformer block and explore how they work together to process input tokens and generate output text.
 
----
+
+\newpage
 
 # Chapter 9: GPT Implementation and Training
 
@@ -442,7 +450,8 @@ Now that we have implemented the Transformer block, layer normalization, and out
 
 By following this chapter, you will have coded the 124 million parameter GPT-2 model and implemented the full pretraining loop. In the next lecture, we will see how to decode the output tensor to predict the next word in a sequence.
 
----
+
+\newpage
 
 # Chapter 10: Inference and Sampling
 
@@ -474,7 +483,8 @@ To illustrate this concept, let's revisit the `generate_text` function and repla
 
 In this chapter, we learned about temperature scaling, a technique that helps reduce randomness in text generation. We saw how replacing the `argmax` operation with a multinomial function allows for some randomness in the selection process while still maintaining the most likely token as the default choice. By controlling the distribution of probabilities through temperature scaling, we can make the generated text more coherent and creative. In the next chapter, we will explore another technique called top-k sampling to further control the randomness in text generation.
 
----
+
+\newpage
 
 # Chapter 11: Model Saving and Loading
 
@@ -536,7 +546,8 @@ In this chapter, we learned how to save and load model weights in PyTorch using 
 
 By mastering these skills, you will be able to efficiently train and test your large language models, making it easier to achieve coherent text generation results. In the next chapter, we will explore how to load pre-trained weights from OpenAI's GPT-2 model and integrate them with our own GPT architecture.
 
----
+
+\newpage
 
 # Chapter 12: Fine-tuning for Classification
 
@@ -585,7 +596,8 @@ In this chapter, we will start working on a hands-on problem that involves fine-
 
 By the end of this chapter, you should have a good understanding of how to fine-tune an LLM for classification tasks. In the next chapter, we will continue working on the hands-on problem, focusing on creating data loaders and initializing the model.
 
----
+
+\newpage
 
 # Chapter 13: Instruction Fine-tuning
 
@@ -640,7 +652,8 @@ This prompt will be used to train our model using the supervised approach.
 
 In the next section, we will dive deeper into the code implementation of instruction fine-tuning using the Stanford Alpaca-based format.
 
----
+
+\newpage
 
 # Chapter 14: Summary and Next Steps
 

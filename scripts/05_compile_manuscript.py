@@ -59,7 +59,8 @@ def compile_manuscript():
 
         # Page break between chapters
         if i < len(chapter_files) - 1:
-            manuscript.append("---")
+            manuscript.append("")
+            manuscript.append("\\newpage")
             manuscript.append("")
 
     # ── Join and save ──────────────────────────────────────────
