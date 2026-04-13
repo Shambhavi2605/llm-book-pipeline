@@ -132,26 +132,32 @@ Handled memory limitations and execution interruptions during long runs
 ---
 
 ## Project Structure
-llm-book-pipeline/
-│
-├── data/
-│ ├── raw_transcripts/
-│ ├── cleaned/
-│ ├── chunks/
-│
-├── output/
-│ ├── summaries.json
-│ ├── topics.json
-│ ├── outline.json
-│ ├── final_outline.json
-│
-├── scripts/
-│ ├── 01_fetch_transcripts.py
-│ ├── 02_clean_and_chunk.py
-│ ├── 03_generate_outline.py
-│ ├── 04_build_final_outline.py
-│
-├── README.md
+llm-book-pipeline/  
+│  
+├── data/  
+│ ├── raw_transcripts/  
+│ ├── cleaned/  
+│ ├── chunks/  
+│  
+├── output/  
+│ ├── batch_topics.json  
+│ ├── book.pdf  
+│ ├── final_outline.json 
+│ ├── manuscript.md  
+│ ├── merged_summaries.json    
+│ ├── outline.json  
+│  
+├── scripts/  
+│ ├── 01_fetch_transcripts.py  
+│ ├── 02_clean_and_chunk.py  
+│ ├── 03_deterministic_outline.py  
+│ ├── 03_generate_outline.py  
+│ ├── 04_build_final_outline.py  
+│ ├── 05_compile_manuscript.py  
+│ ├── 06_render_pdf.py  
+│   
+├── README.md  
+├── pipeline.py
 
 
 ---
