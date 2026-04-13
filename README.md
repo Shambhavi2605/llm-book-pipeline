@@ -29,7 +29,7 @@ Given a long YouTube playlist (43 lectures):
   - Noisy transcripts
   - Logical content structuring
   - Hallucination in LLM outputs
-- Ensure reproducibility?
+- Ensure reproducibility
 
 ---
 
