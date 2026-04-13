@@ -21,7 +21,7 @@ This project was built to:
 
 ## Problem Statement
 
-Given a long YouTube playlist (~40+ lectures):
+Given a long YouTube playlist (43 lectures):
 
 - How can we convert it into a structured book?
 - How do we handle:
@@ -132,26 +132,32 @@ Handled memory limitations and execution interruptions during long runs
 ---
 
 ## Project Structure
-llm-book-pipeline/
-│
-├── data/
-│ ├── raw_transcripts/
-│ ├── cleaned/
-│ ├── chunks/
-│
-├── output/
-│ ├── summaries.json
-│ ├── topics.json
-│ ├── outline.json
-│ ├── final_outline.json
-│
-├── scripts/
-│ ├── 01_fetch_transcripts.py
-│ ├── 02_clean_and_chunk.py
-│ ├── 03_generate_outline.py
-│ ├── 04_build_final_outline.py
-│
-├── README.md
+llm-book-pipeline/  
+│  
+├── data/  
+│ ├── raw_transcripts/  
+│ ├── cleaned/  
+│ ├── chunks/  
+│  
+├── output/  
+│ ├── batch_topics.json  
+│ ├── book.pdf  
+│ ├── final_outline.json   
+│ ├── manuscript.md  
+│ ├── merged_summaries.json    
+│ ├── outline.json  
+│  
+├── scripts/  
+│ ├── 01_fetch_transcripts.py  
+│ ├── 02_clean_and_chunk.py  
+│ ├── 03_deterministic_outline.py  
+│ ├── 03_generate_outline.py  
+│ ├── 04_build_final_outline.py  
+│ ├── 05_compile_manuscript.py  
+│ ├── 06_render_pdf.py  
+│   
+├── README.md  
+├── pipeline.py
 
 
 ---
@@ -177,9 +183,7 @@ Install Ollama from: https://ollama.com
 ---
 
 ## Running the Pipeline
-python scripts/02_clean_and_chunk.py
-python scripts/03_generate_outline.py
-python scripts/04_build_final_outline.py
+python pipeline.py
 
 
 ---
@@ -187,13 +191,17 @@ python scripts/04_build_final_outline.py
 ## Usage
 
 All outputs are stored in the `output/` directory:
-
-- summaries.json  
-- topics.json  
+ 
+- batch_topics.json  
 - outline.json  
 - final_outline.json  
+- book.pdf  
+- merged_summaries.json  
+- manuscript.md  
 
 The final structured book outline is available in `final_outline.json`.
+The unformatted book in non-pdf form with all the chapters is available in `manuscript.md`.
+The final book pdf is `book.pdf`.
 
 ---
 
