@@ -183,9 +183,7 @@ Install Ollama from: https://ollama.com
 ---
 
 ## Running the Pipeline
-python scripts/02_clean_and_chunk.py
-python scripts/03_generate_outline.py
-python scripts/04_build_final_outline.py
+python pipeline.py
 
 
 ---
