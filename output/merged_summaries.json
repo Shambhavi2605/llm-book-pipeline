@@ -1,0 +1,559 @@
+[
+  {
+    "merge_id": "merge_000",
+    "chunk_ids": [
+      "v01_c000",
+      "v01_c001",
+      "v01_c002",
+      "v02_c000",
+      "v02_c001",
+      "v02_c002",
+      "v02_c003",
+      "v02_c004",
+      "v02_c005",
+      "v03_c000"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe video course aims to teach building Large Language Models (LLMs) from scratch, starting from basics and covering nuts and bolts. The instructor, Dr. Raj Dandekar, will share detailed lecture notes and make all videos available for free."
+  },
+  {
+    "merge_id": "merge_001",
+    "chunk_ids": [
+      "v03_c001",
+      "v03_c002",
+      "v03_c003",
+      "v03_c004",
+      "v04_c000",
+      "v04_c001",
+      "v04_c002",
+      "v04_c003",
+      "v04_c004",
+      "v04_c005"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered in the transcript:\n\nThe pre-training of LLMs allows them to perform various tasks without being specifically trained for those tasks, such as translation, question answering, and sentiment detection. This is because the underlying language model improves and can be used for multiple tasks after being trained on a large amount of data."
+  },
+  {
+    "merge_id": "merge_002",
+    "chunk_ids": [
+      "v04_c006",
+      "v05_c000",
+      "v05_c001",
+      "v05_c002",
+      "v05_c003",
+      "v05_c004",
+      "v05_c005",
+      "v05_c006",
+      "v05_c007",
+      "v06_c000"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered in the transcript:\n\nThe self-attention mechanism in Transformers allows the model to weigh the importance of different words relative to each other and capture long-range dependencies. The Transformer architecture has variations, including BERT which predicts hidden or masked words by looking at both left and right context, and GPT which only uses a decoder to predict the next word given incomplete text."
+  },
+  {
+    "merge_id": "merge_003",
+    "chunk_ids": [
+      "v06_c001",
+      "v06_c002",
+      "v06_c003",
+      "v07_c000",
+      "v07_c001",
+      "v07_c002",
+      "v07_c003",
+      "v07_c004",
+      "v07_c005",
+      "v07_c006"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered:\n\nThe segment discusses building a next-word prediction task, implementing data batching to improve computation efficiency, and introducing the attention mechanism in the Transformer model. It also covers the architecture of a large language model (LLM) and pre-training it on unlabeled data, including computing gradients and updating parameters. Additionally, the segment touches on saving and loading LLM weights to reduce computational cost and memory."
+  },
+  {
+    "merge_id": "merge_004",
+    "chunk_ids": [
+      "v07_c007",
+      "v07_c008",
+      "v07_c009",
+      "v07_c010",
+      "v07_c011",
+      "v07_c012",
+      "v08_c000",
+      "v08_c001",
+      "v08_c002",
+      "v08_c003"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered in the transcript:\n\nThe tokenizer implemented can tokenize text based on a snippet from the training set, but it has limitations when encountering words not present in the vocabulary. This highlights the need for large and diverse training data sets to extend the vocabulary and avoid errors. To handle unknown words, special context tokens will be used, including an \"unknown\" token for handling out-of-vocabulary words and an \"end of text\" token."
+  },
+  {
+    "merge_id": "merge_005",
+    "chunk_ids": [
+      "v08_c004",
+      "v08_c005",
+      "v08_c006",
+      "v08_c007",
+      "v08_c008",
+      "v08_c009",
+      "v09_c000",
+      "v09_c001",
+      "v09_c002",
+      "v09_c003"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe speaker discusses pre-processing steps for building LLMs, including adding an \"slw\" end token to each word and creating a frequency table of characters. They then apply the Bite Pair Algorithm to find the most frequent pairings in the data set, merging these pairs into subwords (e.g., combining \"e\" and \"s\" into a single token)."
+  },
+  {
+    "merge_id": "merge_006",
+    "chunk_ids": [
+      "v09_c004",
+      "v09_c005",
+      "v09_c006",
+      "v09_c007",
+      "v09_c008",
+      "v09_c009",
+      "v10_c000",
+      "v10_c001",
+      "v10_c002",
+      "v10_c003"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the transcript, focusing on technical concepts:\n\nThe goal is to implement an efficient data loader that iterates over the input dataset and returns inputs and targets as PyTorch tensors. This is necessary because all optimization procedures later will use PyTorch, which works with tensors. The data loader will create two tensors: an input tensor containing text and a target tensor including targets for the LLM to predict."
+  },
+  {
+    "merge_id": "merge_007",
+    "chunk_ids": [
+      "v10_c004",
+      "v10_c005",
+      "v10_c006",
+      "v10_c007",
+      "v10_c008",
+      "v10_c009",
+      "v10_c010",
+      "v11_c000",
+      "v11_c001",
+      "v11_c002"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe similarity score between word vectors can indicate their semantic meaning, with similar words having low magnitude differences. Token embeddings are created by converting each token ID into an embedding vector, requiring a vocabulary size and vector dimension (e.g., GPT-2 used a 768-dimensional vector for its 50,257 tokens)."
+  },
+  {
+    "merge_id": "merge_008",
+    "chunk_ids": [
+      "v11_c003",
+      "v11_c004",
+      "v11_c005",
+      "v11_c006",
+      "v11_c007",
+      "v11_c008",
+      "v12_c000",
+      "v12_c001",
+      "v12_c002",
+      "v12_c003"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe paper uses absolute positional encoding with a formula to calculate positional embeddings for tokens. To inject order information into the model, absolute positional embeddings are added to token embeddings, unlike GPT which optimized its positional embedding vector values during training. The example demonstrates implementing positional embeddings in a 256-dimensional vector space, similar to what was used in some GPT models."
+  },
+  {
+    "merge_id": "merge_009",
+    "chunk_ids": [
+      "v12_c004",
+      "v12_c005",
+      "v12_c006",
+      "v12_c007",
+      "v12_c008",
+      "v12_c009",
+      "v12_c010",
+      "v12_c011",
+      "v12_c012",
+      "v12_c013"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered:\n\nThe transcript discusses the issue of encoding words not present in the vocabulary, which can be addressed by adding special context tokens. Specifically, two new tokens are introduced: an \"unknown token\" to map unknown words and an \"end of text token\" to mark the end of a document or segment. The tokenizer is modified to use these new tokens, allowing for more effective processing and understanding by large language models."
+  },
+  {
+    "merge_id": "merge_010",
+    "chunk_ids": [
+      "v12_c014",
+      "v12_c015",
+      "v12_c016",
+      "v13_c000",
+      "v13_c001",
+      "v13_c002",
+      "v13_c003",
+      "v13_c004",
+      "v13_c005",
+      "v13_c006"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe input data from the data loader is passed through an embedding layer, which uses a lookup table to convert token IDs into corresponding embedding vectors. The embedding layer takes into account dimensions such as the batch size (8), context length (4), and vector dimension size (256) to generate 8x4x256 tensors representing the token embeddings."
+  },
+  {
+    "merge_id": "merge_011",
+    "chunk_ids": [
+      "v13_c007",
+      "v13_c008",
+      "v14_c000",
+      "v14_c001",
+      "v14_c002",
+      "v14_c003",
+      "v14_c004",
+      "v14_c005",
+      "v14_c006",
+      "v14_c007"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered:\n\nThe attention mechanism, introduced in 2014, learns dependencies between words and translates them by selectively deciding which input to give more attention to. This was built upon earlier work on recurrent neural networks (RNNs) and long short-term memory (LSTM) networks, which solved the vanishing gradient problem. The Transformers architecture, introduced in 2017, used this attention mechanism to enable self-attention, where each position in a sequence attends to all positions within that same sequence."
+  },
+  {
+    "merge_id": "merge_012",
+    "chunk_ids": [
+      "v14_c008",
+      "v14_c009",
+      "v14_c010",
+      "v14_c011",
+      "v14_c012",
+      "v14_c013",
+      "v15_c000",
+      "v15_c001",
+      "v15_c002",
+      "v15_c003"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nTo compute the context vector for a token (e.g. \"Journey\"), the input tokens' embedded representations are multiplied by their corresponding attention weights and then summed up to produce the final context vector. This process involves scaling down the vectors using the attention weights and adding them together. The attention weight matrix is used to extend this computation to calculate context vectors for all other tokens in the input sequence."
+  },
+  {
+    "merge_id": "merge_013",
+    "chunk_ids": [
+      "v15_c004",
+      "v15_c005",
+      "v15_c006",
+      "v15_c007",
+      "v15_c008",
+      "v15_c009",
+      "v15_c010",
+      "v15_c011",
+      "v15_c012",
+      "v15_c013"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe previous step involved converting input embeddings into key, query, and value vectors, then multiplying each input embedding vector by the key, query, and value matrices to get the final key, query, and value matrices. The next step is to compute attention scores, which involves finding how the query attends to different keys in an abstract space using the dot product operation. This process will determine the importance of each key with respect to the query."
+  },
+  {
+    "merge_id": "merge_014",
+    "chunk_ids": [
+      "v16_c000",
+      "v16_c001",
+      "v16_c002",
+      "v16_c003",
+      "v16_c004",
+      "v16_c005",
+      "v16_c006",
+      "v16_c007",
+      "v16_c008",
+      "v16_c009"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered in the transcript:\n\nThe lecture will focus on causal attention, building upon previous lectures that covered attention mechanisms. The goal of attention is to take input embeddings for each token and convert them into context embeddings or vectors, which encode semantic meaning about the token as well as its relationships with other words in the sentence."
+  },
+  {
+    "merge_id": "merge_015",
+    "chunk_ids": [
+      "v16_c010",
+      "v17_c000",
+      "v17_c001",
+      "v17_c002",
+      "v17_c003",
+      "v17_c004",
+      "v17_c005",
+      "v18_c000",
+      "v18_c001",
+      "v18_c002"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered in this transcript:\n\nThe importance of understanding dimensions, matrices, and linear algebra fundamentals is emphasized as a foundation for building large language models from scratch. The concept of attention mechanisms is reviewed, including simplified self-attention, self-attention with trainable weights, and causal attention, which will be built upon to understand multi-head attention."
+  },
+  {
+    "merge_id": "merge_016",
+    "chunk_ids": [
+      "v18_c003",
+      "v18_c004",
+      "v18_c005",
+      "v18_c006",
+      "v18_c007",
+      "v18_c008",
+      "v18_c009",
+      "v18_c010",
+      "v19_c000",
+      "v19_c001"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered:\n\nThe transcript discusses the calculation of query, key, and value matrices in a neural network. The matrices are reshaped from 1x3x6 to 1x3x2x3, where the additional dimensions represent the number of attention heads (2) and head dimension (3)."
+  },
+  {
+    "merge_id": "merge_017",
+    "chunk_ids": [
+      "v19_c002",
+      "v19_c003",
+      "v19_c004",
+      "v19_c005",
+      "v19_c006",
+      "v19_c007",
+      "v19_c008",
+      "v20_c000",
+      "v20_c001",
+      "v20_c002"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe course will build an LLM using the GPT-2 architecture with 124 million parameters, 12 layers, and a vector embedding size of 76. The vocabulary size for this model is 50,257, which includes subwords, characters, and full words, and will be used for tokenization. The context length for predicting the next word is set to 1024 tokens."
+  },
+  {
+    "merge_id": "merge_018",
+    "chunk_ids": [
+      "v20_c003",
+      "v20_c004",
+      "v20_c005",
+      "v20_c006",
+      "v21_c000",
+      "v21_c001",
+      "v21_c002",
+      "v21_c003",
+      "v21_c004",
+      "v22_c000"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe video discusses a neural network with one layer of neurons and six outputs. The input shape is two rows and five columns, representing two batches of five inputs each. After applying the Rao activation function to this layer, batch normalization (specifically, layer normalization) is applied to normalize the output, which involves subtracting the mean and dividing by the standard deviation along the columns."
+  },
+  {
+    "merge_id": "merge_019",
+    "chunk_ids": [
+      "v22_c001",
+      "v22_c002",
+      "v22_c003",
+      "v22_c004",
+      "v22_c005",
+      "v22_c006",
+      "v23_c000",
+      "v23_c001",
+      "v23_c002",
+      "v23_c003"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered in the transcript:\n\nThe vanishing gradient problem occurs when the magnitude of the gradients becomes very small, causing the neural network to stagnate and not learn. Shortcut connections create an alternative path for the gradient to flow by skipping one or more layers, which helps to prevent this problem by increasing the magnitude of the gradients. This is achieved by adding the output of one layer to the output of another layer, allowing the gradients to propagate more effectively through the network."
+  },
+  {
+    "merge_id": "merge_020",
+    "chunk_ids": [
+      "v23_c004",
+      "v23_c005",
+      "v23_c006",
+      "v23_c007",
+      "v24_c000",
+      "v24_c001",
+      "v24_c002",
+      "v24_c003",
+      "v24_c004",
+      "v24_c005"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe JLo activation function was used as an approximation for training the GPT-2 model. The feed-forward neural network consists of an expansion layer that increases the input dimension to four times the original size, followed by the J activation function and a contraction layer that reduces the dimension back to the original size. The Transformer block class is composed of multiple layers, including layer normalization, attention, dropout, and shortcut connections, with two sets of these layers separated by another layer normalization step."
+  },
+  {
+    "merge_id": "merge_021",
+    "chunk_ids": [
+      "v24_c006",
+      "v24_c007",
+      "v24_c008",
+      "v24_c009",
+      "v24_c010",
+      "v25_c000",
+      "v25_c001",
+      "v25_c002",
+      "v25_c003",
+      "v25_c004"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe output of the neural network is a logits matrix with four rows (corresponding to the four tokens) and a number of columns equal to the vocabulary size (50257). This matrix represents the predicted probabilities for each token in the vocabulary given the input. The final output tensor has dimensions 4 x 50257, where the first dimension represents the batch size (in this case, 1), the second dimension is the context size (number of tokens), and the third dimension is the vocabulary size."
+  },
+  {
+    "merge_id": "merge_022",
+    "chunk_ids": [
+      "v25_c005",
+      "v25_c006",
+      "v25_c007",
+      "v26_c000",
+      "v26_c001",
+      "v26_c002",
+      "v26_c003",
+      "v26_c004",
+      "v26_c005",
+      "v26_c006"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered:\n\nThe transcript discusses applying Softmax with a dimension equal to -1 to convert logics into probabilities, ensuring that each row sums up to one. This is followed by identifying the index with the highest probability value and appending it to the initial token IDs using torch.cat. The importance of Softmax lies in its ability to transform logits into a probability distribution, allowing for the identification of the most likely next token."
+  },
+  {
+    "merge_id": "merge_023",
+    "chunk_ids": [
+      "v26_c007",
+      "v26_c008",
+      "v26_c009",
+      "v27_c000",
+      "v27_c001",
+      "v27_c002",
+      "v27_c003",
+      "v27_c004",
+      "v27_c005",
+      "v27_c006"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe instructor explains how to calculate the cross-entropy loss between the model's output (logits) and the target tensor. This involves taking the log of the logits, adding them up, and then finding the negative mean. The process is encapsulated in a single line of code using PyTorch's `torch.nn.functional.cross_entropy` function."
+  },
+  {
+    "merge_id": "merge_024",
+    "chunk_ids": [
+      "v27_c007",
+      "v27_c008",
+      "v27_c009",
+      "v27_c010",
+      "v28_c000",
+      "v28_c001",
+      "v28_c002",
+      "v28_c003",
+      "v28_c004",
+      "v28_c005"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered in the transcript:\n\nAn instance of the data loader is created with settings such as shuffle, drop last, and batch size. The context length is set to 256, which determines the number of tokens considered at one time. A train data loader is constructed with a batch size of 2, maximum length of 256, and stride equal to 256, while a validation data loader has similar settings but with a maximum length of 1024."
+  },
+  {
+    "merge_id": "merge_025",
+    "chunk_ids": [
+      "v28_c006",
+      "v28_c007",
+      "v28_c008",
+      "v29_c000",
+      "v29_c001",
+      "v29_c002",
+      "v29_c003",
+      "v29_c004",
+      "v30_c000",
+      "v30_c001"
+    ],
+    "summary": "Here is a summary of the technical concepts covered in the transcript:\n\nThe GPT configuration uses a vector embedding dimension of 768, 12 attention heads, 12 Transformers, and a dropout rate of 0.1. The optimizer used is AdamW, which is a variation of Adam that incorporates weight decay. The hyperparameters for AdamW are specified as learning rate and weight decay. Additionally, the number of epochs is set to 10, with an evaluation frequency of every 5 batches."
+  },
+  {
+    "merge_id": "merge_026",
+    "chunk_ids": [
+      "v30_c002",
+      "v30_c003",
+      "v30_c004",
+      "v31_c000",
+      "v31_c001",
+      "v31_c002",
+      "v32_c000",
+      "v32_c001",
+      "v32_c002",
+      "v32_c003"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe decoding strategy involves applying top-K sampling to the logit tensor, replacing non-top-K values with negative infinity. The top-K values are then scaled by temperature and passed through a softmax function before being sampled from a multinomial distribution to select the next token. This process integrates temperature scaling and top-K sampling to ensure probabilistic selection of the next token."
+  },
+  {
+    "merge_id": "merge_027",
+    "chunk_ids": [
+      "v32_c004",
+      "v32_c005",
+      "v32_c006",
+      "v32_c007",
+      "v32_c008",
+      "v32_c009",
+      "v33_c000",
+      "v33_c001",
+      "v33_c002",
+      "v33_c003"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered in the transcript:\n\nThe transcript discusses accessing weights, biases, and trainable scale/shift parameters within Transformer blocks, including the attention layers, feed-forward neural networks, and output projection layers. It also covers accessing layer normalization parameters, including the scaling (G) and shifting (B) parameters for both layer normalizations one and two. Additionally, it highlights the importance of accessing the \"blocks\" key to access the weights and biases of each Transformer block."
+  },
+  {
+    "merge_id": "merge_028",
+    "chunk_ids": [
+      "v33_c004",
+      "v34_c000",
+      "v34_c001",
+      "v34_c002",
+      "v34_c003",
+      "v34_c004",
+      "v34_c005",
+      "v35_c000",
+      "v35_c001",
+      "v35_c002"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe \"random split\" function was used to divide the data frame into training (70%), validation (20%), and testing (10%) sets. The lengths of these data frames were checked, showing that they add up to the total number of spam and not spam examples (1494). The data frames were then converted into CSV files using the `to_csv` function from Pandas."
+  },
+  {
+    "merge_id": "merge_029",
+    "chunk_ids": [
+      "v35_c003",
+      "v35_c004",
+      "v35_c005",
+      "v35_c006",
+      "v36_c000",
+      "v36_c001",
+      "v36_c002",
+      "v36_c003",
+      "v36_c004",
+      "v36_c005"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered in the transcript:\n\nThe input to the model is an embedding with dimension size 768, and the output has 50,257 columns corresponding to the vocabulary size. The model is modified to add a classification head that maps from 768 hidden units to two units, representing \"yes\" or \"no\" classifications."
+  },
+  {
+    "merge_id": "merge_030",
+    "chunk_ids": [
+      "v36_c006",
+      "v36_c007",
+      "v36_c008",
+      "v36_c009",
+      "v37_c000",
+      "v37_c001",
+      "v37_c002",
+      "v37_c003",
+      "v37_c004",
+      "v38_c000"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing on technical concepts:\n\nThe modified architecture adds a classification head on top of the model. The training process uses an optimizer with an evaluation frequency of 50 batches, printing train and validation loss after each evaluation iteration. The accuracy calculation loader is used to evaluate the model's performance on the entire training set, rather than just five batches, providing a more representative measure of the model's accuracy."
+  },
+  {
+    "merge_id": "merge_031",
+    "chunk_ids": [
+      "v38_c001",
+      "v38_c002",
+      "v38_c003",
+      "v38_c004",
+      "v38_c005",
+      "v38_c006",
+      "v38_c007",
+      "v38_c008",
+      "v38_c009",
+      "v39_c000"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered:\n\nThe lecture focuses on batching the data set, specifically converting text prompts into numerical representations. This involves tokenizing the data using a tokenizer like the BPE (Byte Pair Encoding) used by OpenAI, which converts sentences into token IDs. The goal is to ensure that each batch has the same size and structure, despite varying lengths of individual prompts."
+  },
+  {
+    "merge_id": "merge_032",
+    "chunk_ids": [
+      "v39_c001",
+      "v39_c002",
+      "v39_c003",
+      "v39_c004",
+      "v40_c000",
+      "v40_c001",
+      "v40_c002",
+      "v40_c003",
+      "v41_c000",
+      "v41_c001"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered:\n\nAfter tokenizing data, the next step is to adjust the batch size so that all input samples have the same number of tokens. This is done by padding shorter inputs with the \"end of text\" token (50256) until they match the length of the longest input. The target pairs are then created by shifting the input tokens one position forward and adding an end-of-text token, which is used to create the next-token prediction task in fine-tuning."
+  },
+  {
+    "merge_id": "merge_033",
+    "chunk_ids": [
+      "v41_c002",
+      "v41_c003",
+      "v41_c004",
+      "v42_c000",
+      "v42_c001",
+      "v42_c002",
+      "v42_c003",
+      "v42_c004",
+      "v42_c005",
+      "v42_c006"
+    ],
+    "summary": "Here is a 2-3 sentence summary of the technical concepts covered in this transcript:\n\nThe code calculates the initial training loss and validation loss before starting the training process, showing high losses. The model uses the AdamW optimizer with a learning rate of 0.005 and weight decay of 0.1, which can be adjusted to improve results. The training process is set up with one epoch, evaluation frequency every five batches, and start context for evaluating generated responses during training."
+  },
+  {
+    "merge_id": "merge_034",
+    "chunk_ids": [
+      "v42_c007",
+      "v42_c008",
+      "v42_c009",
+      "v43_c000",
+      "v43_c001",
+      "v43_c002",
+      "v43_c003"
+    ],
+    "summary": "Here is a summary of the transcript in 2-3 sentences, focusing only on technical concepts covered:\n\nThe Large Language Model (LLM) evaluates its own responses using qualitative metrics, such as relevance, accuracy, and vividness. The LLM assigns scores to each response, with 85 out of 100 being given for a simile-based response that effectively conveys the intended meaning, while 20 out of 100 is given for a response that provides an inaccurate general description rather than directly answering the question."
+  }
+]
