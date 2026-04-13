@@ -193,13 +193,17 @@ python scripts/04_build_final_outline.py
 ## Usage
 
 All outputs are stored in the `output/` directory:
-
-- summaries.json  
-- topics.json  
+ 
+- batch_topics.json  
 - outline.json  
 - final_outline.json  
+- book.pdf  
+- merged_summaries.json  
+- manuscript.md  
 
 The final structured book outline is available in `final_outline.json`.
+The unformatted book in non-pdf form with all the chapters is available in `manuscript.md`.
+The final book pdf is `book.pdf`.
 
 ---
 
